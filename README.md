@@ -40,7 +40,6 @@ tags:
     - attack.execution
     - attack.t1059.001
 
-🔎 Equivalent Splunk Search Query (SPL)
 index=win_logs EventCode=4688 (Image="*\\powershell.exe" OR Image="*\\pwsh.exe") (CommandLine="* -e *" OR CommandLine="* -enc *" OR CommandLine="* -EncodedCommand *")
 
 🧐 SOC Analyst Commentary & Threat Assessment
